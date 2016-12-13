@@ -1,0 +1,16 @@
+﻿Compilación iniciada a las 09/12/2016 7:51:32.
+     1>Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\test_errorstuff.vcxproj" en el nodo 2 (Build destinos).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\include" /I"C:\Program Files\OpenAL 1.1 SDK\include" /I"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"test_errorstuff.dir\Debug\\" /Fd"test_errorstuff.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\test_suite\test_errorstuff.c"
+         test_errorstuff.c
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\Debug\test_errorstuff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib src\Debug\alut.lib "C:\Program Files\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/Debug/test_errorstuff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/Debug/test_errorstuff.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug test_errorstuff.dir\Debug\test_errorstuff.obj
+         test_errorstuff.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\Debug\test_errorstuff.exe
+     1>Compilación del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\test_errorstuff.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:06.12

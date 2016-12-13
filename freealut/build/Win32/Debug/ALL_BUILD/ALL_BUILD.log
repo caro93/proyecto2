@@ -1,0 +1,10 @@
+﻿Compilación iniciada a las 09/12/2016 7:51:55.
+     1>Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\ALL_BUILD.vcxproj" en el nodo 2 (Build destinos).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\generate.stamp is up-to-date.
+     1>Compilación del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\ALL_BUILD.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.42

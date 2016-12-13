@@ -1,0 +1,44 @@
+﻿Compilación iniciada a las 09/12/2016 7:51:10.
+     1>Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\src\alut_static.vcxproj" en el nodo 3 (Build destinos).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/src/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\src\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\include" /I"C:\Program Files\OpenAL 1.1 SDK\include" /I"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"alut_static.dir\Debug\\" /Fd"alut_static.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutBufferData.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutCodec.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutError.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutInit.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutInputStream.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutLoader.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutOutputStream.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutUtil.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutVersion.c" "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutWaveform.c"
+         alutBufferData.c
+         alutCodec.c
+     1>C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutCodec.c(213): warning C4018: '<' : no coinciden signed/unsigned
+     1>C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutCodec.c(222): warning C4018: '<' : no coinciden signed/unsigned
+     1>C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutCodec.c(224): warning C4018: '<' : no coinciden signed/unsigned
+         alutError.c
+     1>C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutError.c(10): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : vea la declaración de 'getenv'
+         alutInit.c
+         alutInputStream.c
+     1>C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutInputStream.c(56): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : vea la declaración de 'fopen'
+     1>C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutInputStream.c(72): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(112) : vea la declaración de 'strcpy'
+         alutLoader.c
+         alutOutputStream.c
+         alutUtil.c
+         alutVersion.c
+         alutWaveform.c
+         Generando código...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\src\Debug\alut_static.lib" /NOLOGO alut_static.dir\Debug\alutBufferData.obj
+         alut_static.dir\Debug\alutCodec.obj
+         alut_static.dir\Debug\alutError.obj
+         alut_static.dir\Debug\alutInit.obj
+         alut_static.dir\Debug\alutInputStream.obj
+         alut_static.dir\Debug\alutLoader.obj
+         alut_static.dir\Debug\alutOutputStream.obj
+         alut_static.dir\Debug\alutUtil.obj
+         alut_static.dir\Debug\alutVersion.obj
+         alut_static.dir\Debug\alutWaveform.obj
+         alut_static.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\src\Debug\alut_static.lib
+     1>Compilación del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\src\alut_static.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:14.81

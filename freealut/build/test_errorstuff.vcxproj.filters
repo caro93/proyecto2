@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\test_suite\test_errorstuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97E3C81F-C2ED-4295-ABB9-9213DEFC0DE0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

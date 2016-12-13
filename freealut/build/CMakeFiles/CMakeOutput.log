@@ -1,0 +1,466 @@
+The system is: Windows - 6.2 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:27:18.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se crear  "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\3.2.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:07.63
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/3.2.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2964944347.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:27:27.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec2964944347.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec2964944347.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec2964944347.dir\Debug\cmTryCom.92A692B5.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec2964944347.dir\Debug\cmTryCom.92A692B5.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2964944347.dir\Debug\\" /Fd"cmTryCompileExec2964944347.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  testCCompiler.c
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2964944347.dir\Debug\\" /Fd"cmTryCompileExec2964944347.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2964944347.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2964944347.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2964944347.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2964944347.dir\Debug\testCCompiler.obj
+  cmTryCompileExec2964944347.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2964944347.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec2964944347.dir\Debug\cmTryCom.92A692B5.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec2964944347.dir\Debug\cmTryCom.92A692B5.tlog\cmTryCompileExec2964944347.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec2964944347.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:04.45
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4124232835.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:27:33.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4124232835.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec4124232835.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec4124232835.dir\Debug\cmTryCom.D6F4F0F1.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec4124232835.dir\Debug\cmTryCom.D6F4F0F1.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4124232835.dir\Debug\\" /Fd"cmTryCompileExec4124232835.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4124232835.dir\Debug\\" /Fd"cmTryCompileExec4124232835.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4124232835.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4124232835.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4124232835.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4124232835.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec4124232835.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4124232835.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec4124232835.dir\Debug\cmTryCom.D6F4F0F1.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec4124232835.dir\Debug\cmTryCom.D6F4F0F1.tlog\cmTryCompileExec4124232835.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4124232835.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.17
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec146847494.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:29:44.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec146847494.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec146847494.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec146847494.dir\Debug\cmTryCom.9F148475.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec146847494.dir\Debug\cmTryCom.9F148475.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec146847494.dir\Debug\\" /Fd"cmTryCompileExec146847494.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec146847494.dir\Debug\\" /Fd"cmTryCompileExec146847494.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec146847494.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec146847494.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec146847494.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec146847494.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec146847494.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec146847494.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec146847494.dir\Debug\cmTryCom.9F148475.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec146847494.dir\Debug\cmTryCom.9F148475.tlog\cmTryCompileExec146847494.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec146847494.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.12
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2527503621.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:29:48.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec2527503621.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec2527503621.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec2527503621.dir\Debug\cmTryCom.23BBE61D.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec2527503621.dir\Debug\cmTryCom.23BBE61D.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2527503621.dir\Debug\\" /Fd"cmTryCompileExec2527503621.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2527503621.dir\Debug\\" /Fd"cmTryCompileExec2527503621.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2527503621.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2527503621.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2527503621.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2527503621.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec2527503621.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2527503621.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec2527503621.dir\Debug\cmTryCom.23BBE61D.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec2527503621.dir\Debug\cmTryCom.23BBE61D.tlog\cmTryCompileExec2527503621.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec2527503621.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.09
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1376822382.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:29:52.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1376822382.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec1376822382.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec1376822382.dir\Debug\cmTryCom.8B1E1C7B.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec1376822382.dir\Debug\cmTryCom.8B1E1C7B.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1376822382.dir\Debug\\" /Fd"cmTryCompileExec1376822382.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1376822382.dir\Debug\\" /Fd"cmTryCompileExec1376822382.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1376822382.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1376822382.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1376822382.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1376822382.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1376822382.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1376822382.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec1376822382.dir\Debug\cmTryCom.8B1E1C7B.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec1376822382.dir\Debug\cmTryCom.8B1E1C7B.tlog\cmTryCompileExec1376822382.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1376822382.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.00
+
+
+Determining size of __int8 passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1612392341.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:29:56.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1612392341.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec1612392341.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec1612392341.dir\Debug\cmTryCom.96DEE7B7.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec1612392341.dir\Debug\cmTryCom.96DEE7B7.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1612392341.dir\Debug\\" /Fd"cmTryCompileExec1612392341.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CheckTypeSize\HAVE___INT8.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1612392341.dir\Debug\\" /Fd"cmTryCompileExec1612392341.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CheckTypeSize\HAVE___INT8.c"
+  
+  HAVE___INT8.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1612392341.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1612392341.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1612392341.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1612392341.dir\Debug\HAVE___INT8.obj
+  cmTryCompileExec1612392341.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1612392341.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec1612392341.dir\Debug\cmTryCom.96DEE7B7.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec1612392341.dir\Debug\cmTryCom.96DEE7B7.tlog\cmTryCompileExec1612392341.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1612392341.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.85
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2334569932.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:04.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec2334569932.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec2334569932.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec2334569932.dir\Debug\cmTryCom.F041B5ED.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec2334569932.dir\Debug\cmTryCom.F041B5ED.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2334569932.dir\Debug\\" /Fd"cmTryCompileExec2334569932.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2334569932.dir\Debug\\" /Fd"cmTryCompileExec2334569932.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2334569932.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2334569932.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2334569932.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2334569932.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec2334569932.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2334569932.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec2334569932.dir\Debug\cmTryCom.F041B5ED.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec2334569932.dir\Debug\cmTryCom.F041B5ED.tlog\cmTryCompileExec2334569932.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec2334569932.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.00
+
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3475468319.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:08.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3475468319.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec3475468319.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec3475468319.dir\Debug\cmTryCom.5186654A.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec3475468319.dir\Debug\cmTryCom.5186654A.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3475468319.dir\Debug\\" /Fd"cmTryCompileExec3475468319.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3475468319.dir\Debug\\" /Fd"cmTryCompileExec3475468319.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3475468319.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3475468319.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3475468319.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3475468319.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3475468319.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3475468319.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec3475468319.dir\Debug\cmTryCom.5186654A.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec3475468319.dir\Debug\cmTryCom.5186654A.tlog\cmTryCompileExec3475468319.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3475468319.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:08.04
+
+
+Determining if the _stat exist passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec9304523.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:20.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec9304523.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec9304523.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec9304523.dir\Debug\cmTryCom.31E41072.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec9304523.dir\Debug\cmTryCom.31E41072.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec9304523.dir\Debug\\" /Fd"cmTryCompileExec9304523.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec9304523.dir\Debug\\" /Fd"cmTryCompileExec9304523.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec9304523.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec9304523.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec9304523.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec9304523.dir\Debug\CheckSymbolExists.obj
+  cmTryCompileExec9304523.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec9304523.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec9304523.dir\Debug\cmTryCom.31E41072.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec9304523.dir\Debug\cmTryCom.31E41072.tlog\cmTryCompileExec9304523.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec9304523.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.78
+
+File C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stat
+  return ((int*)(&_stat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Sleep exist passed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3407863805.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:27.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3407863805.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec3407863805.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec3407863805.dir\Debug\cmTryCom.5426B761.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec3407863805.dir\Debug\cmTryCom.5426B761.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3407863805.dir\Debug\\" /Fd"cmTryCompileExec3407863805.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3407863805.dir\Debug\\" /Fd"cmTryCompileExec3407863805.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3407863805.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3407863805.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3407863805.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3407863805.dir\Debug\CheckSymbolExists.obj
+  cmTryCompileExec3407863805.vcxproj -> C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3407863805.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTryCompileExec3407863805.dir\Debug\cmTryCom.5426B761.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTryCompileExec3407863805.dir\Debug\cmTryCom.5426B761.tlog\cmTryCompileExec3407863805.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3407863805.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:06.57
+
+File C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Sleep
+  return ((int*)(&Sleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

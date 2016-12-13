@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutBufferData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutCodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutError.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutInit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutInputStream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutLoader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutOutputStream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutUtil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutVersion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutWaveform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\alutInternal.h">
+      <Filter>InternalHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\include\AL\alut.h">
+      <Filter>APIHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97E3C81F-C2ED-4295-ABB9-9213DEFC0DE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalHeader">
+      <UniqueIdentifier>{37D75423-BCF5-485D-B39A-B4F1FC286516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APIHeader">
+      <UniqueIdentifier>{F5231D3F-1282-4439-9D48-31C275769494}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

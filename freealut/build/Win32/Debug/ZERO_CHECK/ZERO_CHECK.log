@@ -1,0 +1,12 @@
+﻿Compilación iniciada a las 09/12/2016 7:50:58.
+     1>Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\ZERO_CHECK.vcxproj" en el nodo 2 (Build destinos).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/src/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/examples/CMakeFiles/generate.stamp is up-to-date.
+     1>Compilación del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\ZERO_CHECK.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:08.33

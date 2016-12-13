@@ -1,0 +1,253 @@
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4280455540.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:01.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4280455540.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec4280455540.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec4280455540.dir\Debug\cmTryCom.689E1503.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec4280455540.dir\Debug\cmTryCom.689E1503.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4280455540.dir\Debug\\" /Fd"cmTryCompileExec4280455540.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4280455540.dir\Debug\\" /Fd"cmTryCompileExec4280455540.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'unistd.h': No such file or directory [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4280455540.vcxproj]
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4280455540.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4280455540.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'unistd.h': No such file or directory [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4280455540.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:02.40
+
+
+Determining if the include file features.h exists failed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1124507306.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:17.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1124507306.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec1124507306.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec1124507306.dir\Debug\cmTryCom.A8AD5614.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec1124507306.dir\Debug\cmTryCom.A8AD5614.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1124507306.dir\Debug\\" /Fd"cmTryCompileExec1124507306.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1124507306.dir\Debug\\" /Fd"cmTryCompileExec1124507306.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'features.h': No such file or directory [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1124507306.vcxproj]
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1124507306.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1124507306.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'features.h': No such file or directory [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec1124507306.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:01.87
+
+
+Determining if the nanosleep exist failed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec288086050.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:24.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec288086050.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec288086050.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec288086050.dir\Debug\cmTryCom.510A7B42.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec288086050.dir\Debug\cmTryCom.510A7B42.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec288086050.dir\Debug\\" /Fd"cmTryCompileExec288086050.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec288086050.dir\Debug\\" /Fd"cmTryCompileExec288086050.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'nanosleep' : identificador no declarado [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec288086050.vcxproj]
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec288086050.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec288086050.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'nanosleep' : identificador no declarado [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec288086050.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:01.73
+
+File C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ failed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3484165039.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:35.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec3484165039.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec3484165039.dir\Debug\cmTryCom.FF1EBBEF.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec3484165039.dir\Debug\cmTryCom.FF1EBBEF.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE___ATTRIBUTE__ /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3484165039.dir\Debug\\" /Fd"cmTryCompileExec3484165039.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE___ATTRIBUTE__ /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3484165039.dir\Debug\\" /Fd"cmTryCompileExec3484165039.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2146: error de sintaxis : falta ')' delante del identificador '__attribute__' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2061: error de sintaxis : identificador '__attribute__' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2059: error de sintaxis : ';' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2059: error de sintaxis : ')' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2054: se esperaba '(' a continuaci¢n de 'unused' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(2): error C2061: error de sintaxis : identificador '__attribute__' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(2): error C2059: error de sintaxis : ';' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(2): error C2182: 'unused' : uso no v lido del tipo 'void' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(2): error C2370: 'unused' : nueva definici¢n; clase de almacenamiento distinta [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+          C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1) : vea la declaraci¢n de 'unused'
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2146: error de sintaxis : falta ')' delante del identificador '__attribute__' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2061: error de sintaxis : identificador '__attribute__' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2059: error de sintaxis : ';' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2059: error de sintaxis : ')' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2054: se esperaba '(' a continuaci¢n de 'unused' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(2): error C2061: error de sintaxis : identificador '__attribute__' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(2): error C2059: error de sintaxis : ';' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(2): error C2182: 'unused' : uso no v lido del tipo 'void' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(2): error C2370: 'unused' : nueva definici¢n; clase de almacenamiento distinta [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec3484165039.vcxproj]
+
+    0 Advertencia(s)
+    9 Errores
+
+Tiempo transcurrido 00:00:01.72
+
+Source file was:
+void  foo (int bar __attribute__((unused)) ) { }
+	static void baz (void) __attribute__((unused));
+	static void baz (void) { }
+	int main(){}
+	
+Performing C SOURCE FILE Test HAVE_GCC_VISIBILITY failed with the following output:
+Change Dir: C:/Users/susa/Documents/Visual Studio 2013/Projects/external/freealut/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4248808583.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 09/12/2016 7:30:38.
+Proyecto "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTryCompileExec4248808583.dir\Debug\".
+  Creando directorio "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTryCompileExec4248808583.dir\Debug\cmTryCom.507CB7C2.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTryCompileExec4248808583.dir\Debug\cmTryCom.507CB7C2.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_GCC_VISIBILITY /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4248808583.dir\Debug\\" /Fd"cmTryCompileExec4248808583.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue  -fvisibility=hidden "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_GCC_VISIBILITY /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4248808583.dir\Debug\\" /Fd"cmTryCompileExec4248808583.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue  -fvisibility=hidden "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c"
+  
+cl : L¡nea de comandos warning D9002: se omite la opci¢n desconocida '-fvisibility=hidden' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+  src.c
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2143: error de sintaxis : falta ')' delante de '(' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2091: la funci¢n devuelve una funci¢n [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2143: error de sintaxis : falta ')' delante de 'cadena' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2143: error de sintaxis : falta '{' delante de 'cadena' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2059: error de sintaxis : 'cadena' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2059: error de sintaxis : ')' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+Compilaci¢n del proyecto terminada "C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  cl : L¡nea de comandos warning D9002: se omite la opci¢n desconocida '-fvisibility=hidden' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+
+
+"C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2143: error de sintaxis : falta ')' delante de '(' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2091: la funci¢n devuelve una funci¢n [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2143: error de sintaxis : falta ')' delante de 'cadena' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2143: error de sintaxis : falta '{' delante de 'cadena' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2059: error de sintaxis : 'cadena' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+  C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\src.c(1): error C2059: error de sintaxis : ')' [C:\Users\susa\Documents\Visual Studio 2013\Projects\external\freealut\build\CMakeFiles\CMakeTmp\cmTryCompileExec4248808583.vcxproj]
+
+    1 Advertencia(s)
+    6 Errores
+
+Tiempo transcurrido 00:00:01.71
+
+Source file was:
+void __attribute__((visibility("default"))) test() {}
+	#ifdef __INTEL_COMPILER
+	#error ICC breaks with binutils and visibility
+	#endif
+	int main(){}
+	
