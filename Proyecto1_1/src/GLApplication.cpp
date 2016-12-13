@@ -8,6 +8,10 @@
 #include "Headers/GLApplication.h"
 #include "Headers/collision.h"
 
+#define NUM_BUFFERS 5
+#define NUM_SOURCES 5
+#define NUM_ENVIRONMENTS 1
+
 GLuint VAO, VBO, EBO;
 Cube cubeColis(1.0f, 1.0f, 1.0f, true);
 Sphere spColis(1.0, 20, 20, true);
@@ -19,27 +23,7 @@ Texture textureDifuse(GL_TEXTURE_2D, "Textures/SUN.jpg");
 Texture textureTerrain(GL_TEXTURE_2D, "Textures/pasto.png");
 GLuint VAOpiso, VBOpiso, EBOpiso;
 
-#define NUM_BUFFERS 1
-#define NUM_SOURCES 1
-#define NUM_ENVIRONMENTS 1
 
-//Audio
-ALfloat listenerPos[] = { 0.0, 0.0, 4.0 };
-ALfloat listenerVel[] = { 0.0, 0.0, 0.0 };
-ALfloat listenerOri[] = { 0.0, 0.0, 1.0, 0.0, 1.0, 0.0 };
-
-ALfloat source0Pos[] = { -2.0, 0.0, 0.0 };
-ALfloat source0Vel[] = { 0.0, 0.0, 0.0 };
-
-ALuint buffer[NUM_BUFFERS];
-ALuint source[NUM_SOURCES];
-ALuint environment[NUM_ENVIRONMENTS];
-
-ALsizei size, freq;
-ALenum format;
-ALvoid *data;
-int ch;
-ALboolean loop;
 
 std::vector<GLuint> rays;
 
@@ -49,6 +33,29 @@ bool ColBol::contactp2;
 bool ColBol::contactp3;
 bool ColBol::npc4go;
 float npc4down = 0.0f;
+
+ALfloat listenerPos[] = { 0.0, 0.0, 4.0 };
+ALfloat listenerVel[] = { 0.0, 0.0, 0.0 };
+ALfloat listenerOri[] = { 0.0, 0.0, 1.0, 0.0, 1.0, 0.0 };
+
+ALfloat source0Pos[] = { 0.0, 0.0, 0.0 };
+ALfloat source0Vel[] = { 0.0, 0.0, 0.0 };
+
+ALfloat source1Pos[] = { 0.0, 0.0, 0.0 };
+ALfloat source1Vel[] = { 0.0, 0.0, 0.0 };
+
+ALfloat source2Pos[] = { 0.0, 0.0, 0.0 };
+ALfloat source2Vel[] = { 0.0, 0.0, 0.0 };
+
+ALfloat source3Pos[] = { 0.0, 0.0, 0.0 };
+ALfloat source3Vel[] = { 0.0, 0.0, 0.0 };
+
+ALfloat source4Pos[] = { 0.0, 0.0, 0.0 };
+ALfloat source4Vel[] = { 0.0, 0.0, 0.0 };
+
+ALuint buffer[NUM_BUFFERS];
+ALuint source[NUM_SOURCES];
+ALuint environment[NUM_ENVIRONMENTS];
 
 
 GLApplication::GLApplication() :
@@ -69,6 +76,83 @@ void GLApplication::initialize() {
 		this->destroy();
 		exit(-1);
 	}
+
+	alutInit(0, NULL);
+
+	alListenerfv(AL_POSITION, listenerPos);
+	alListenerfv(AL_VELOCITY, listenerVel);
+	alListenerfv(AL_ORIENTATION, listenerOri);
+
+	alGetError(); // clear any error messages
+
+	if (alGetError() != AL_NO_ERROR) {
+		printf("- Error creating buffers !!\n");
+		exit(1);
+	}
+	else {
+		printf("init() - No errors yet.");
+	}
+
+	// Generate buffers, or else no sound will happen!
+	alGenBuffers(NUM_BUFFERS, buffer);
+
+	buffer[0] = alutCreateBufferFromFile("sounds/Monstres.wav");
+	buffer[1] = alutCreateBufferFromFile("sounds/Jungle.wav");
+	buffer[2] = alutCreateBufferFromFile("sounds/Monde.wav");
+	buffer[3] = alutCreateBufferFromFile("sounds/Nuit.wav");
+	buffer[4] = alutCreateBufferFromFile("sounds/Mystere.wav");
+	//buffer[0] = alutCreateBufferHelloWorld();
+
+	alGetError(); /* clear error */
+	alGenSources(NUM_SOURCES, source);
+
+	if (alGetError() != AL_NO_ERROR) {
+		printf("- Error creating sources !!\n");
+		exit(2);
+	}
+	else {
+		printf("init - no errors after alGenSources\n");
+	}
+
+	alSourcef(source[0], AL_PITCH, 1.0f);
+	alSourcef(source[0], AL_GAIN, 1.0f);
+	alSourcefv(source[0], AL_POSITION, source0Pos);
+	alSourcefv(source[0], AL_VELOCITY, source0Vel);
+	alSourcei(source[0], AL_BUFFER, buffer[0]);
+	alSourcei(source[0], AL_LOOPING, AL_TRUE);
+	alSourcef(source[0], AL_MAX_DISTANCE, 1200);
+
+	alSourcef(source[1], AL_PITCH, 1.0f);
+	alSourcef(source[1], AL_GAIN, 1.0f);
+	alSourcefv(source[1], AL_POSITION, source1Pos);
+	alSourcefv(source[1], AL_VELOCITY, source1Vel);
+	alSourcei(source[1], AL_BUFFER, buffer[1]);
+	alSourcei(source[1], AL_LOOPING, AL_TRUE);
+	alSourcef(source[1], AL_MAX_DISTANCE, 1200);
+
+	alSourcef(source[2], AL_PITCH, 1.0f);
+	alSourcef(source[2], AL_GAIN, 1.0f);
+	alSourcefv(source[2], AL_POSITION, source2Pos);
+	alSourcefv(source[2], AL_VELOCITY, source2Vel);
+	alSourcei(source[2], AL_BUFFER, buffer[2]);
+	alSourcei(source[2], AL_LOOPING, AL_TRUE);
+	alSourcef(source[2], AL_MAX_DISTANCE, 1200);
+
+	alSourcef(source[3], AL_PITCH, 1.0f);
+	alSourcef(source[3], AL_GAIN, 1.0f);
+	alSourcefv(source[3], AL_POSITION, source3Pos);
+	alSourcefv(source[3], AL_VELOCITY, source3Vel);
+	alSourcei(source[3], AL_BUFFER, buffer[3]);
+	alSourcei(source[3], AL_LOOPING, AL_TRUE);
+	alSourcef(source[3], AL_MAX_DISTANCE, 1200);
+
+	alSourcef(source[4], AL_PITCH, 1.0f);
+	alSourcef(source[4], AL_GAIN, 1.0f);
+	alSourcefv(source[4], AL_POSITION, source4Pos);
+	alSourcefv(source[4], AL_VELOCITY, source4Vel);
+	alSourcei(source[4], AL_BUFFER, buffer[4]);
+	alSourcei(source[4], AL_LOOPING, AL_TRUE);
+	alSourcef(source[4], AL_MAX_DISTANCE, 1200);
 
 	glViewport(0, 0, WindowManager::screenWidth, WindowManager::screenHeight);
 	glClearColor(0.2f, 0.2f, 0.2f, 0.0f);
@@ -157,47 +241,10 @@ void GLApplication::initialize() {
 	lampShader.initialize("Shaders/lampShader.vs", "Shaders/lampShader.fs");
 	shader.initialize("Shaders/shader.vs", "Shaders/shader.fs");
 
+	
 
-	alutInit(0, NULL);
 
-	alListenerfv(AL_POSITION, listenerPos);
-	alListenerfv(AL_VELOCITY, listenerVel);
-	alListenerfv(AL_ORIENTATION, listenerOri);
-
-	alGetError(); // clear any error messages
-
-	if (alGetError() != AL_NO_ERROR) {
-		printf("- Error creating buffers !!\n");
-		exit(1);
-	}
-	else {
-		printf("init() - No errors yet.");
-	}
-
-	// Generate buffers, or else no sound will happen!
-	alGenBuffers(NUM_BUFFERS, buffer);
-
-	buffer[0] = alutCreateBufferFromFile("sounds/lawyer1.wav");
-	//buffer[0] = alutCreateBufferHelloWorld();
-
-	alGetError(); /* clear error */
-	alGenSources(NUM_SOURCES, source);
-
-	if (alGetError() != AL_NO_ERROR) {
-		printf("- Error creating sources !!\n");
-		exit(2);
-	}
-	else {
-		printf("init - no errors after alGenSources\n");
-	}
-
-	alSourcef(source[0], AL_PITCH, 1.0f);
-	alSourcef(source[0], AL_GAIN, 1.0f);
-	alSourcefv(source[0], AL_POSITION, source0Pos);
-	alSourcefv(source[0], AL_VELOCITY, source0Vel);
-	alSourcei(source[0], AL_BUFFER, buffer[0]);
-	alSourcei(source[0], AL_LOOPING, AL_TRUE);
-	alSourcef(source[0], AL_MAX_DISTANCE, 1200);
+	
 
 }
 
@@ -447,7 +494,12 @@ void GLApplication::applicationLoop() {
 		s2.ratio = sbb2.ratio;
 		if (testSphereSphereIntersection(s1, s2)){
 			ColBol::contactp3 = true;
-			std::cout << "Model collision:" << std::endl;
+			std::cout << "Model collision: Flash" << std::endl;
+			alSourceStop(source[1]);
+			alSourceStop(source[0]);
+			alSourceStop(source[3]);
+			alSourceStop(source[4]);
+			alSourcePlay(source[2]);
 		}
 		else{
 			ColBol::contactp3 = false;
@@ -466,12 +518,22 @@ void GLApplication::applicationLoop() {
 
 		if (testSphereCubeIntersection(a1, s1)){
 			ColBol::contactp1 = true;
-			std::cout << "Model collision:" << std::endl;
+			std::cout << "Model collision: Deathstoke" << std::endl;
+			alSourceStop(source[1]);
+			alSourceStop(source[2]);
+			alSourceStop(source[3]);
+			alSourceStop(source[4]);
+			alSourcePlay(source[0]);
 		}
 
 		if (testSphereCubeIntersection(a2, s1)){
 			ColBol::contactp2 = true;
-			std::cout << "Model collision:" << std::endl;
+			std::cout << "Model collision: cat" << std::endl;
+			alSourceStop(source[0]);
+			alSourceStop(source[2]);
+			alSourceStop(source[3]);
+			alSourceStop(source[4]);
+			alSourcePlay(source[1]);
 		}
 
 		//cubo y cubo
@@ -528,7 +590,12 @@ void GLApplication::applicationLoop() {
 				else{
 					angplay = 0.0f;
 				}
-				std::cout << "Picking" << std::endl;
+				std::cout << "Picking uno" << std::endl;
+				alSourceStop(source[1]);
+				alSourceStop(source[0]);
+				alSourceStop(source[3]);
+				alSourceStop(source[2]);
+				alSourcePlay(source[4]);
 			}
 
 			vDirToSphere = c2 - o;
@@ -542,7 +609,12 @@ void GLApplication::applicationLoop() {
 				else{
 					angnpc3 = 0.0f;
 				}
-				std::cout << "Picking" << std::endl;
+				std::cout << "Picking dos" << std::endl;
+				alSourceStop(source[1]);
+				alSourceStop(source[0]);
+				alSourceStop(source[3]);
+				alSourceStop(source[4]);
+				alSourcePlay(source[2]);
 			}
 
 			if (rayCubeIntersect(o, t, dir, a1)){
@@ -552,7 +624,12 @@ void GLApplication::applicationLoop() {
 				else{
 					angnpc1 = 0.0f;
 				}
-				std::cout << "Picking" << std::endl;
+				std::cout << "Picking tres" << std::endl;
+				alSourceStop(source[1]);
+				alSourceStop(source[2]);
+				alSourceStop(source[3]);
+				alSourceStop(source[4]);
+				alSourcePlay(source[0]);
 			}
 			if (rayCubeIntersect(o, t, dir, a2)){
 				if (angnpc2 == 0.0f){
@@ -561,7 +638,12 @@ void GLApplication::applicationLoop() {
 				else{
 					angnpc2 = 0.0f;
 				}
-				std::cout << "Picking" << std::endl;
+				std::cout << "Picking cuatro" << std::endl;
+				alSourceStop(source[2]);
+				alSourceStop(source[0]);
+				alSourceStop(source[3]);
+				alSourceStop(source[4]);
+				alSourcePlay(source[1]);
 			}
 			if (rayCubeIntersect(o, t, dir, a3)){
 				if (angnpc4 == 0.0f){
@@ -570,7 +652,12 @@ void GLApplication::applicationLoop() {
 				else{
 					angnpc4 = 0.0f;
 				}
-				std::cout << "Picking" << std::endl;
+				std::cout << "Picking cinco" << std::endl;
+				alSourceStop(source[1]);
+				alSourceStop(source[0]);
+				alSourceStop(source[2]);
+				alSourceStop(source[4]);
+				alSourcePlay(source[3]);
 			}
 
 			windowManager->inputManager.setGenerateRay(false);
@@ -599,15 +686,35 @@ void GLApplication::applicationLoop() {
 		ligtingshader.turnOn();
 
 		windowManager->swapTheBuffers();
-		//Condiciones de audio
-		source0Pos[0] = model_play[3].x;
-		source0Pos[1] = model_play[3].y;
-		source0Pos[2] = model_play[3].z;
+
+		source0Pos[0] = model_P1[3].x;
+		source0Pos[1] = model_P1[3].y;
+		source0Pos[2] = model_P1[3].z;
 		alSourcefv(source[0], AL_POSITION, source0Pos);
 
-		listenerPos[0] = camera->CharPosition.x;
-		listenerPos[1] = camera->CharPosition.y;
-		listenerPos[2] = camera->CharPosition.z;
+		source1Pos[0] = model_P2[3].x;
+		source1Pos[1] = model_P2[3].y;
+		source1Pos[2] = model_P2[3].z;
+		alSourcefv(source[1], AL_POSITION, source1Pos);
+
+		source2Pos[0] = model_P3[3].x;
+		source2Pos[1] = model_P3[3].y;
+		source2Pos[2] = model_P3[3].z;
+		alSourcefv(source[2], AL_POSITION, source2Pos);
+
+		source3Pos[0] = model_P4[3].x;
+		source3Pos[1] = model_P4[3].y;
+		source3Pos[2] = model_P4[3].z;
+		alSourcefv(source[3], AL_POSITION, source3Pos);
+
+		source4Pos[0] = model_play[3].x;
+		source4Pos[1] = model_play[3].y;
+		source4Pos[2] = model_play[3].z;
+		alSourcefv(source[4], AL_POSITION, source4Pos);
+
+		listenerPos[0] = camera->Position.x;
+		listenerPos[1] = camera->Position.y;
+		listenerPos[2] = camera->Position.z;
 		alListenerfv(AL_POSITION, listenerPos);
 
 		listenerOri[0] = camera->Front.x;
@@ -621,6 +728,19 @@ void GLApplication::applicationLoop() {
 		if (windowManager->inputManager.getKeyState()[InputCodes::P]){
 			alSourcePlay(source[0]);
 		}
+
+		/*if (windowManager->inputManager.getKeyState()[InputCodes::P]){
+			alSourcePlay(source[0]);
+		}
+
+		if (windowManager->inputManager.getKeyState()[InputCodes::P]){
+			alSourcePlay(source[0]);
+		}
+
+		if (windowManager->inputManager.getKeyState()[InputCodes::P]){
+			alSourcePlay(source[0]);
+		}*/
+		
 	}
 }
 
@@ -640,6 +760,8 @@ void GLApplication::destroy() {
 
 	glBindVertexArray(0);
 	glDeleteVertexArrays(1, &VAO);
+
+	alutExit();
 
 }
 
